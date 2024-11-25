@@ -59,9 +59,9 @@ def evaluate_expression(topic, context):
 # Example usage
 if __name__ == "__main__":
     topic = "Artificial Intelligence"
-    context = "Artificial Intelligence is a field of study focusing on creating machines
+    context = """Artificial Intelligence is a field of study focusing on creating machines
                capable of mimicking human intelligence.It includes machine learning, robotics,
-                and natural language processing."
+                and natural language processing."""
     result = evaluate_expression(topic, context)
     print("LCEL Expression Output:")
     print(result)
